@@ -70,3 +70,8 @@ h1 {
 p {
     margin-bottom: 10px;
 }
+
+.title img {
+    display: inline;
+    width: 30px;
+}

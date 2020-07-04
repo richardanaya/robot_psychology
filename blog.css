@@ -104,14 +104,3 @@ p {
         text-decoration: underline;
     }
 }
-
-_::-webkit-full-page-media, _:future, :root .safari_only {
-    .header {
-        height: 40px;
-    }
-
-    .side-tag {
-        top: 160px;
-        left: -80px;
-    }
-  }

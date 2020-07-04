@@ -5,12 +5,12 @@ html, body {
 
 .header {
     font-family: 'Michroma', sans-serif;
-    height: 46px;
-    line-height: 46px;
-    font-size: 30px;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.9rem;
     font-weight: bold;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     border-bottom: 1px solid black;
 }
 
@@ -41,9 +41,9 @@ body {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: absolute;
-    top: 250px;
-    left: -160px;
-    font-size: 40px;
+    top: 16rem;
+    left: -10rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -53,25 +53,57 @@ body {
 }
 
 .page {
-    margin-top: 20px;
-    margin-left: 120px;
+    margin-top: 1.1rem;
+    margin-left: 8rem;
 }
 
 p, h1 {
     margin: 0px;
+    max-width: 600px;
+    margin-right: 1rem;
 }
 
 h1 {
     font-family: 'Michroma', sans-serif;
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 1.4rem;
+    margin-bottom: .1rem;
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: .2rem;
 }
 
 .title img {
     display: inline;
-    width: 30px;
+    width: 1.9rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header a {
+        font-size: .9rem;
+    }
+
+    .side-tag {
+        top: 12rem;
+        left: -6.5rem;
+        font-size: 1.5rem;
+    }
+
+    .page {
+        margin-left: 4rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .subscribe {
+        text-decoration: underline;
+    }
 }

@@ -1,0 +1,66 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    font-family: 'Michroma', sans-serif;
+    height: 46px;
+    line-height: 46px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    float: right;
+}
+
+.body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.side-tag {
+    text-align: right;
+    font-family:bold;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 250px;
+    left: -160px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bar-code {
+    font-family: 'Libre Barcode 39', cursive;
+    font-weight: normal;
+}
+
+.page {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+p, h1 {
+    margin: 0px;
+}
+
+p {
+    margin-bottom: 10px;
+}

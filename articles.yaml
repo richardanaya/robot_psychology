@@ -1,0 +1,11 @@
+﻿---
+common_words:
+  en:
+articles:
+  - en:
+      key: XBA-3118
+      title: HELLO WORLD
+      image: 000.png 
+      content_markdown: |
+        This is a hello world.
+    

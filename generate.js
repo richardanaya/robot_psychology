@@ -16,7 +16,7 @@ function getWord(words,lang,w){
 }
 
 function template(lessons,lang,title,code,content,index,isLast, words, is_beta){
-    return `<html lang="en">
+    return `<html lang="${lang}">
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155199982-2"></script>
@@ -51,12 +51,12 @@ function template(lessons,lang,title,code,content,index,isLast, words, is_beta){
                 <span class="subscribe"><a href="subscribe.html">subscribe</a></span>
             </div>
             <div class="page">
-            <img src="images/000.png">
+            <img src="images/${index}.png">
             <h1>${title}</h1>
             ${content}
         </div>
         <div class="side-tag">
-            XBA-4281
+            ${code}
             <div class="bar-code">empathy for the machine</div>
         </div>
     </body>

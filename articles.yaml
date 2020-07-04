@@ -3,7 +3,7 @@ common_words:
   en:
 articles:
   - en:
-      key: XBA-3118
+      code: XBA-3118
       title: HELLO WORLD
       image: 000.png 
       content_markdown: |

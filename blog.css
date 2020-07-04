@@ -78,6 +78,28 @@ p {
     margin-bottom: 10px;
 }
 
+.article {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.article img {
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.article h1 {
+    padding: 5px;
+    font-size: 10px;
+    margin: 0px;
+    color: black;
+}
+
+.article a {
+    color: black;
+}
 
 
 @media screen and (max-width: 600px) {

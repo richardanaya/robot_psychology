@@ -71,7 +71,8 @@ p, h1 {
 h1 {
     font-family: 'Michroma', sans-serif;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -101,6 +102,20 @@ p {
     color: black;
 }
 
+strong {
+    font-weight: bold;
+}
+
+ul,ol {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
 @media screen and (max-width: 600px) {
     .header {

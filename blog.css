@@ -57,6 +57,7 @@ body {
     margin-left: 120px;
     margin-right: 15px;
     max-width: 600px;
+    margin-bottom: 100px;
 }
 
 .page img {
@@ -139,7 +140,7 @@ blockquote {
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .subscribe {

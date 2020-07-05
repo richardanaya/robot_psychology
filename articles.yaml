@@ -4,37 +4,37 @@ common_words:
 articles:
   - en:
       code: XBA-3118
-      title: On Anthropromorphizing Machines
+      title: On Anthropomorphizing Machines
       image: 000.png 
       content_markdown: |
         > "All models are false, but some models are useful." - George Box
 
         If you are a human who is lucky enough to have owned a pet at some point in your life, you may have developed a feeling that you knew what 
-        your animal is thinking. You see your cute dog pawing at his bowl, signals seem clear, your responses create desired outcome, what's
-        to doubt about your understanding?  The hungry dog when given a bowl of food appears to be healthy and stops asking for food for awhile.
+        your animal is thinking. You see your cute dog pawing at his bowl, the signals seem clear, your responses create a desired outcome, what's
+        to doubt about your understanding?  The hungry dog when given a bowl of food appears to be healthy and stops asking for food for a while.
         
-        As happy as our dogs seem, we must inevitably face that cognitivaly, and biologically, we are not dogs.  We will never be able to understand a world seen
+        As happy as our dogs seem, we must inevitably face that cognitively, and biologically, we are not dogs.  We will never be able to understand a world seen
         through the mind of an animal lacking the complex brain structures that give humanity our deep ability for imagining the world. We will never
         be able to understand a world through the specialized senses of scent and sound as our pet.  We must face the realization that we have created 
         a model of how our pet works.  We have projected a simplified image of humanity onto a cute four legged creature, and lo and behold its results seem
         optimal! The dog is not destructive, he seems alive and enjoying life (as we imagine life can be enjoyed).
 
-        This process of projecting a model based off our experience as a human is known as anthropromorphizing. We apply it to other humans, animals, and even 
+        This process of projecting a model based off our experience as a human is known as anthropomorphizing. We apply it to other humans, animals, and even 
         non-biological systems. Human behavior is very familiar to us as humans.  So much so that we may end up using descriptions of our own behavior as a language
         for describing other things.  We see conceptual patterns in others that match patterns we experience as living beings and some of us say "Let's try thinking of this like
         a human for a bit and see what happens."  Sometimes the results are useful.
 
-        I offer that robotics is a realm where the anthropromorphizing of machines is an incredibly useful activity.  As humans we deal with physical systems all the time
+        I offer that robotics is a realm where the anthropomorphizing of machines is an incredibly useful activity.  As humans we deal with physical systems all the time
         and it should come as no surprise that we recognize patterns in the interactions of robots with physical systems that appear to match our owns struggles.
 
-        1. **Observation**: The robot seems to be having difficulting moving.
+        1. **Observation**: The robot seems to be having difficulty moving.
         2. **Reflection**: I've had difficulty moving before, sometimes it was because of my leg.
-        3. **Anthropromorphizing**: Maybe this model of my physical movement is useful to this quadraped robot.
-        4. **Action**: I should check it's leg if something wrong.
+        3. **Anthropomorphizing**: Maybe this model of my physical movement is useful to this quadruped robot.
+        4. **Action**: I should check its leg if something wrong.
         
-        The collection of articles in this website revolve around the topic of Robot Psychology. This is not to say robots are humans, but rather an outlook that anthropromorphzing 
+        The collection of articles in this website revolve around the topic of Robot Psychology. This is not to say robots are humans, but rather an outlook that anthropomorphizing 
         robots and empathizing with that model is useful. Assigning a robot a "psychology" gives us a language for describing the collection of driving ideas
-        that might be in alignment or out of alignment with the physical world.  In these articles we will examine an anthropromorphized view of robots to discuss
+        that might be in alignment or out of alignment with the physical world.  In these articles we will examine an anthropomorphized view of robots to discuss
         various technical challenges from a hopefully amusing and unique perspective. We will explore our "mental models" of robots and reflect on
         the limits of how effectively we can work with these new generations of machines that are ever more integrated into our lives.
 

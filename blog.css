@@ -123,6 +123,10 @@ ol {
     margin-left: 15px;
 }
 
+a {
+    color: black;
+}
+
 @media screen and (max-width: 600px) {
     .header {
         margin-left: 0;

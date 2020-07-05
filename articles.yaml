@@ -27,10 +27,13 @@ articles:
         I offer that robotics is a realm where the anthropomorphizing of machines is an incredibly useful activity.  As humans, we deal with physical systems all the time
         and it should come as no surprise that we recognize patterns in the interactions of robots with physical systems that appear to match our owns struggles.
 
-        1. **Observation**: The robot seems to be having difficulty moving.
-        2. **Reflection**: I've had difficulty moving before, sometimes it was because of my leg.
-        3. **Anthropomorphizing**: Maybe this model of my physical movement is useful to this quadruped robot.
-        4. **Action**: I should check its leg if something wrong.
+        1. **Personal Observation**: I am a human and I move.
+        2. **Personal Conceptualization**: My senses seem to indicate my arms and legs are important factors in my ability to move.
+        3. **External Observation**: The robot seems to be having difficulty moving.
+        4. **External Conceptualization**: The robot appears to also have appendages that interact with the physical world like mine.
+        5. **Reflection**: I've had difficulty moving before, sometimes it was because of my leg.
+        6. **Anthropomorphizing**: Maybe this model of my physical movement is useful to this quadruped robot.
+        7. **Action**: I should check its leg if something wrong.
         
         The collection of articles in this website revolve around the topic of Robot Psychology. This is not to say robots are humans, but rather an outlook that anthropomorphizing 
         robots and empathizing with that model is useful. Assigning a robot a “psychology” gives us a language for describing the collection of driving ideas

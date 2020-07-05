@@ -118,6 +118,11 @@ blockquote {
     text-transform: uppercase;
 }
 
+ol {
+    list-style-type: decimal;
+    margin-left: 15px;
+}
+
 @media screen and (max-width: 600px) {
     .header {
         margin-left: 0;

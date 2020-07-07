@@ -132,6 +132,28 @@ for(var l in languages){
         }
     }
 
+    c = 0;
+    let rss = `<?xml version="1.0" encoding="UTF-8" ?>
+        <rss version="2.0">
+        <channel>
+        <title>Robot Psychology</title>
+        <link>https://robotpsychology.org/</link>
+        <description>Robot Psychology - Empathy for Machines</description>`;
+    for(var i in langLessons){
+        let lesson = betaLessons[i];
+        var stats = fs. statSync("images/"+c+".png");
+        rss += `<item>
+        <title>${lesson.en.title}</title>
+        <guid>https://robotpsychology.org/article_${lesson.en.code}_en.html</guid>
+        <link>https://robotpsychology.org/article_${lesson.en.code}_en.html</link>
+        <enclosure url="https://robotpsychology.org/images/${c}.png" length="${stats.size}" type="image/png" />
+        <description>${converter.makeHtml(lesson.en.content_markdown)}</description>
+        </item>`;
+        c++;
+    }
+    rss += `</channel></rss>`
+    fs.writeFileSync("rss.xml",rss);
+
     fs.writeFileSync("index.html",`<html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->

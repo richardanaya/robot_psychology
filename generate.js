@@ -147,7 +147,7 @@ for(var l in languages){
         <guid>https://robotpsychology.org/article_${lesson.en.code}_en.html</guid>
         <link>https://robotpsychology.org/article_${lesson.en.code}_en.html</link>
         <enclosure url="https://robotpsychology.org/images/${c}.png" length="${stats.size}" type="image/png" />
-        <description>${converter.makeHtml(lesson.en.content_markdown)}</description>
+        <description><![CDATA[${converter.makeHtml(lesson.en.content_markdown)}]]></description>
         </item>`;
         c++;
     }

@@ -8,7 +8,7 @@
         <guid>https://robotpsychology.org/article_XBA-3118_en.html</guid>
         <link>https://robotpsychology.org/article_XBA-3118_en.html</link>
         <enclosure url="https://robotpsychology.org/images/0.png" length="120889" type="image/png" />
-        <description><blockquote>
+        <description><![CDATA[<blockquote>
   <p>"All models are false, but some models are useful." - George Box</p>
 </blockquote>
 <p>If you are a human who is lucky enough to have owned a pet at some point in your life, you may have developed a feeling that you knew what 
@@ -39,5 +39,5 @@ robots and empathizing with that model is useful. Assigning a robot a “psychol
 that might be in alignment or out of alignment with the physical world.  In these articles we will examine an anthropomorphized view of robots to discuss
 various technical challenges from a hopefully intriguing and unique perspective. We'll look at “mental models” of robots and reflect on
 the limits of how effectively we can work with these new generations of machines that are ever more integrated into our lives.</p>
-<p><code>-</code> RA.2</p></description>
+<p><code>-</code> RA.2</p>]]></description>
         </item></channel></rss>
